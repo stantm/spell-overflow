@@ -1,0 +1,174 @@
+body{
+  background-color:hsl(210deg 8% 95%);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#welcomeText {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #555555;
+  font-weight: bold;
+}
+
+#navbarDiv{
+  width: 100%;
+  background-color: hsl(180deg 8% 97%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  box-shadow: 01px 1px 0.5px rgb(194, 191, 191);
+}
+
+#navbarUl {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+#navbarLi > a {
+  text-decoration: none;
+  padding: 20px;
+  background: none;
+  color: black;
+}
+
+#logOutButton {
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size:16px;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* question page */
+.containerall {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: rgb(240, 240, 240);
+  margin: 0rem 18rem 0rem 20rem;
+}
+
+.post-box {
+  padding: 2rem 2rem 1rem 2rem;
+  border-bottom: 1px solid black;
+}
+
+.post-box > a {
+  color: rgb(65, 172, 218);
+  font-size: 1.1rem;
+}
+
+.post-box > p {
+  color: black;
+  font-size: .9rem;
+}
+
+/* answer page */
+.containerall > h1 {
+  font-weight: normal;
+  padding: 2rem 2rem 1rem 2rem;
+  border-bottom: 1px solid rgb(224, 223, 223);
+}
+
+.containerall > p {
+  font-size: .9rem;
+  padding: 2rem 2rem 1rem 2rem;
+}
+
+.containerall > h3 {
+  font-weight: normal;
+  font-size: .8rem;
+  padding: 0 0 0 2rem;
+}
+
+.containerall > h2 {
+  padding: 0 0 0 2.2rem;
+}
+
+
+#newQuestionButton {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: hsl(206deg 100% 52%);
+  border-radius: 5px;
+  border: 1px solid hsl(205deg 41% 63%);
+  box-shadow: inset 0 1px 0 0 hsl(0deg 0% 10);
+  font-size: 13px;
+  text-decoration: none;
+  color:white;
+  padding:0.8em;
+}
+
+#newQuestionButton:hover {
+  background-color: hsl(205deg 47% 42%);
+}
+
+#searchBar {
+  border-color: hsl(210deg 8% 75%);
+  background-color: hsl(0deg 0% 100%);
+  box-shadow: none;
+  color: hsl(210deg 8% 25%);
+  border-radius: 3px;
+}
+
+#newAnswerButton {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: hsl(206deg 100% 52%);
+  border-radius: 5px;
+  border: 1px solid hsl(205deg 41% 63%);
+  box-shadow: inset 0 1px 0 0 hsl(0deg 0% 10);
+  font-size: 13px;
+  text-decoration: none;
+  color:white;
+  padding:0.8em;
+}
+
+#newAnswerButton:hover {
+  background-color: hsl(205deg 47% 42%);
+}
+
+#submit-answer-button {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: hsl(206deg 100% 52%);
+  border-radius: 5px;
+  border: 1px solid hsl(205deg 41% 63%);
+  box-shadow: inset 0 1px 0 0 hsl(0deg 0% 10);
+  font-size: 13px;
+  text-decoration: none;
+  color:white;
+  padding:0.8em;
+  margin: 10px;
+}
+
+#submit-answer-button:hover {
+  background-color: hsl(205deg 47% 42%);
+}
+
+#cancel-button {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: hsl(206deg 100% 52%);
+  border-radius: 5px;
+  border: 1px solid hsl(205deg 41% 63%);
+  box-shadow: inset 0 1px 0 0 hsl(0deg 0% 10);
+  font-size: 13px;
+  text-decoration: none;
+  color:white;
+  padding:0.8em;
+  margin: 10px;
+}
+
+#cancel-button:hover {
+  background-color: hsl(205deg 47% 42%);
+}

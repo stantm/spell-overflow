@@ -1,0 +1,21 @@
+extends layout
+
+append head
+  //- add page specific styles by appending to the head
+  link(rel="stylesheet" href="/stylesheets/index.css")
+  //- add page specific js
+  script(src="/javascripts/index.js" type="module" defer)
+
+block content
+  h1= title
+
+  div(class="questions-area")
+    h2 Top Questions
+      each question in questions
+        div(class="question")
+          a(href=`/questions/${question.id}`)= question.headline
+            //- p= question.headline
+          //- if question.picture
+          //-   img(src = `${question.picture}`)
+
+      //- still need button/a-tag for 'Ask Question'
